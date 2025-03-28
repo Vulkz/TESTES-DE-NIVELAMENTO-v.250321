@@ -18,7 +18,7 @@ for elemento in elementos:
         wget.download(tag_a.get('href'),  f'Anexo{c}.pdf')
         c+=1
 
-with zipfile.ZipFile('arquivo.zip', 'w') as zip:
+with zipfile.ZipFile('anexos.zip', 'w') as zip:
     zip.write('Anexo1.pdf')
     zip.write('Anexo2.pdf')
 
