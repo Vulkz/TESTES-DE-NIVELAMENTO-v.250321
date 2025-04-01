@@ -1,0 +1,27 @@
+{
+  "info": {
+    "_postman_id": "12345678-90ab-cdef-1234-567890abcdef",
+    "name": "API Operadoras",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Buscar Operadoras",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:5000/buscar?termo=Unimed",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "5000",
+          "path": ["buscar"],
+          "query": [
+            { "key": "termo", "value": "Unimed" }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
